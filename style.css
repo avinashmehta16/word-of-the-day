@@ -1,0 +1,32 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #f2f4f8;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .example {
+    margin-top: 8px;
+    font-style: italic;
+  }
+  
