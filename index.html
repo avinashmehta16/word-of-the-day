@@ -2,44 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Daily Plan Generator</title>
+  <title>Daily Word Gym</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>What should I do now?</h1>
-    <p class="subtitle">One clear plan, based on how you feel.</p>
+  <h1>Daily Word Gym 🧠</h1>
+  <p>Norwegian • Finance English • Punjabi</p>
 
-    <label>Energy</label>
-    <select id="energy" onchange="generateActivity()">
-      <option value="high">High</option>
-      <option value="medium">Medium</option>
-      <option value="low">Low</option>
-      <option value="sick">Sick</option>
-    </select>
-
-    <label>Mental state</label>
-    <select id="mental" onchange="generateActivity()">
-      <option value="motivated">Motivated</option>
-      <option value="sharp">Clear & sharp</option>
-      <option value="sleepy">Sleepy</option>
-      <option value="lazy">Lazy</option>
-      <option value="happy">Happy</option>
-      <option value="demotivated">Demotivated</option>
-    </select>
-
-    <label>Time available</label>
-    <select id="time" onchange="generateActivity()">
-      <option value="15-30">15–30 minutes</option>
-      <option value="30-60">30–60 minutes</option>
-      <option value="60-90">60–90 minutes</option>
-      <option value="90-120">90–120 minutes</option>
-    </select>
-
-    <button onclick="generateActivity()">Generate</button>
-
-    <div id="result"></div>
+  <div class="cards">
+    <div class="card" id="norwegian"></div>
+    <div class="card" id="english"></div>
+    <div class="card" id="punjabi"></div>
   </div>
 
   <script src="script.js"></script>
